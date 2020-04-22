@@ -7,4 +7,4 @@ def abrazolasMod(n,k,r):
     else:
         return ("Nem eloallithato")
 
-print(abrazolasMod(14,5,9))
+
