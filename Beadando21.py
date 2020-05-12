@@ -10,7 +10,7 @@ def abrazolasMod(n,k,r):
                 continue
             if j+i == n:
                 db += 1
-    return (f'{db%(10**9+7)} db modon alakithatjuk ki a keresett szamot.')
+    return (f'{db} db modon alakithatjuk ki a keresett szamot.')
 
 
 while True:
