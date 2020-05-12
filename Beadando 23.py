@@ -18,6 +18,7 @@ def rakovetkezo(vege,ah,fh):
                     rakov+=1
                 if i>=j:
                     break
+    rakov=rakov%(10**9+7)
     return (f'{vektor}\n{rakov} rakovetkezo elem van a vektorban.')
 
 hossz = int(input('Add meg a vektor nagysagat: '))
